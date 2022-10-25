@@ -17,7 +17,6 @@ public class BasicItemController {
 
     private final ItemRepository itemRepository;
 
-    @Autowired
     public BasicItemController(ItemRepository itemRepository) {
         this.itemRepository = itemRepository;
     }
