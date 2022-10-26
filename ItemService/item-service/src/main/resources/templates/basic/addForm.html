@@ -2,7 +2,8 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="utf-8">
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link th:href="@{/css/bootstrap.min.css}"
+          href="../css/bootstrap.min.css" rel="stylesheet">
   <style>
     .container {
       max-width: 560px;
@@ -20,7 +21,7 @@
         method="post">
     <div>
       <label for="itemName">상품명</label>
-      <input type="text" id="itemName" name="itemName" class="formcontrol" placeholder="이름을 입력하세요">
+      <input type="text" id="itemName" name="itemName" class="form-control" placeholder="이름을 입력하세요">
     </div>
     <div>
       <label for="price">가격</label>
@@ -29,7 +30,7 @@
     </div>
     <div>
       <label for="quantity">수량</label>
-      <input type="text" id="quantity" name="quantity" class="formcontrol" placeholder="수량을 입력하세요">
+      <input type="text" id="quantity" name="quantity" class="form-control" placeholder="수량을 입력하세요">
     </div>
     <hr class="my-4">
     <div class="row">
@@ -47,4 +48,4 @@
   </form>
 </div> <!-- /container -->
 </body>
-</html
+</html>
