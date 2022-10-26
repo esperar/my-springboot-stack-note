@@ -71,10 +71,21 @@ public class BasicItemController {
     /**
      * @ModelAttribute 자체 생략 가능
      * model.addAttribute(item) 자동 추가 */
-    @PostMapping("/add")
+
+   /* @PostMapping("/add")
     public String addItemV4(Item item) {
         itemRepository.save(item);
         return "basic/item";
+    }*/
+
+
+    /**
+     * PRG - Post/Redirect/Get
+     */
+    @PostMapping("/add")
+    public String addItemV5(Item item) {
+        itemRepository.save(item);
+        return "redirect:/basic/item/" + item.getId();
     }
 
     /**
