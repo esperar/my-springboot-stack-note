@@ -12,6 +12,7 @@ import javax.validation.constraints.NotNull;
 @ScriptAssert(lang = "javascript", script = "_this.price * _this.quantity >= 10000")
 public class Item {
 
+    @NotNull
     private Long id;
 
     @NotBlank
@@ -22,7 +23,7 @@ public class Item {
     private Integer price;
 
     @NotNull
-    @Max(9999)
+    // @Max(9999)
     private Integer quantity;
 
     public Item() {
