@@ -1,5 +1,7 @@
 package hello.login.domain.item;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -8,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 @Repository
+@NoArgsConstructor
 public class ItemRepository {
 
     private static final Map<Long, Item> store = new HashMap<>(); //static
