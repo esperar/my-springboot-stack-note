@@ -4,7 +4,7 @@
 - [CRUD Board](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/HopeBoard)
 
 - [Spring MVC Tech](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/SpringMVC_tech/springmvc)
-- [Servlet](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/StudyServlet/servelt)
+- [Servlet](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/StudyServlet/servlet)
 - [thymeleaf](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/Thymeleaf/thymeleaf-basic)
 - [message & internationalization](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/itemForm)
 - [Mapping Example](https://github.com/KIMHUEMANG/springboot-stack-note/tree/master/itemService)
