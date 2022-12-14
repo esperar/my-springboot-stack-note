@@ -27,6 +27,7 @@ public class ServletUploadControllerV1 {
         log.info("request={}", request);
         String itemName = request.getParameter("itemName");
         log.info("itemName={}", itemName);
+
         Collection<Part> parts = request.getParts();
         log.info("parts={}", parts);
 
